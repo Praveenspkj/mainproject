@@ -113,7 +113,7 @@ export const appRouter = router({
   getFileMessages: privateProcedure
     .input(
       z.object({
-        limit: z.number().min(1).max(1000).nullish(),
+        limit: z.number().min(1).max(10000).nullish(),
         cursor: z.string().nullish(),
         fileId: z.string(),
       })
