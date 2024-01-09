@@ -106,16 +106,7 @@ export default function Home() {
               <span className='text-xl font-semibold'>
                 Sign up for an account
               </span>
-              <span className='mt-2 text-zinc-700'>
-                Either starting out with a free plan or
-                choose our{' '}
-                <Link
-                  href='/pricing'
-                  className='text-blue-700 underline underline-offset-2'>
-                  pro plan
-                </Link>
-                .
-              </span>
+             
             </div>
           </li>
           <li className='md:flex-1'>
